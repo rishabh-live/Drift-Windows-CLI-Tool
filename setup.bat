@@ -35,5 +35,5 @@ mkdir "C:/Program Files/Drift Desk/loads"
 robocopy /s /e "./DriftWin/" "C:/Program Files/Drift Desk/libs/"
 robocopy /s /e "./Worker/" "C:/Program Files/Drift Desk/loads/"
 REM SetX PATH "C:/Program Files/Drift Desk/libs/;%PATH%"
-SetX PATH "C:/Program Files/Drift Desk/loads/;%PATH%"
+SetX PATH "%PATH%;C:/Program Files/Drift Desk/loads/"
 pause
